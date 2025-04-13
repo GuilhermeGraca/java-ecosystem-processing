@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="core2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../TP3_A51736_A51827/core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

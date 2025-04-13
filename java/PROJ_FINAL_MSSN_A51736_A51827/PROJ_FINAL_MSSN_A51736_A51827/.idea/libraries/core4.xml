@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="core4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Aula1_Processing_MSSN/core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
