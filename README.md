@@ -48,7 +48,13 @@
 ## About The Project
 
 <div align="center">
-  <video src="https://github.com/GuilhermeGraca/java-ecosystem-processing/raw/refs/heads/main/preview/ecosystemDemo.mp4" controls="controls" style="max-width: 100%; height: auto;">Your browser does not support the video tag.</video>
+
+
+
+https://github.com/user-attachments/assets/2b306ed3-0d75-4b8f-bb7f-449d0675382a
+
+
+  
   <br />
   <p align="center">
     <em>Ecosystem Simulation Demo — Showing cellular automata terrain generation, autonomous agent navigation, and predator-prey dynamics.</em>
