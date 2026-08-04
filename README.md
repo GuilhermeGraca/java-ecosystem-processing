@@ -67,7 +67,7 @@ https://github.com/user-attachments/assets/2b306ed3-0d75-4b8f-bb7f-449d0675382a
 
 This repository contains **Java Ecosystem Simulation App**, an academic project developed from scratch in 2024 for the *Modelação e Simulação de Sistemas Naturais* course at **ISEL (Instituto Superior de Engenharia de Lisboa)**, in collaboration with Martim Ramos.
 
-The primary goal of this project is to simulate an artificial ecosystem where predator and prey populations interact within a dynamic environment. It combines cellular automata for terrain generation with autonomous agents that evolve their steering behaviors over time based on energy consumption and survival.
+The primary goal of this project is to simulate the life cycle and emergent population balance of predator and prey species in a mixed terrestrial and aquatic environment. The simulation combines cellular automata to generate biomes and renewable food sources with autonomous agents that use sensory vision, physics integration, and genetic mutation to evolve their steering strategies over successive generations.
 
 For a comprehensive academic explanation of the mathematical models, algorithms, and simulation results, please refer to the detailed Portuguese report available in the repository: [`PROJ_FINAL_MSSN_A51736_A51827.pdf`](Relatório/PROJ_FINAL_MSSN_A51736_A51827.pdf).
 
@@ -87,11 +87,11 @@ For a comprehensive academic explanation of the mathematical models, algorithms,
 
 ### Features & Key Highlights
 
-* **Cellular Automata Terrain**: Uses the majority rule to generate a smoothed grid environment with fertile ground, food, and obstacles.
-* **Autonomous Steering Agents**: Predators and prey navigate the environment using steering behaviors such as wander, obstacle avoidance, and pursuit.
-* **Genetic Evolution**: Surviving agents pass down mutated behavioral weights to their offspring, allowing populations to adapt their strategies over generations.
-* **Energy and Metabolism Model**: Agents consume energy through movement and basic metabolism, requiring food or prey to survive and reproduce.
-* **Interactive Controls**: Users can click the bottom bar to select cell types and draw food, obstacles, or empty space directly onto the simulation grid.
+* **Cellular Automata Biomes**: Uses five iterations of a Moore neighborhood majority rule to group cells into realistic biomes of desert, fertile ground, food, and water obstacles.
+* **Autonomous Steering Behaviors**: Prey use wander and obstacle avoidance to explore safely, while predators use pursuit steering to intercept the closest prey within their field of vision.
+* **Genetic Behavior Mutation**: Offspring inherit survival strategies from parents with slight weight mutations, capping predator pursuit weight to maintain ecological balance.
+* **Metabolism and Resource Cycle**: Animals expend energy based on movement speed and obstacle penalties, requiring food patches that regenerate every ten seconds or prey capture to reproduce.
+* **Interactive Terrain Control**: Users can click the bottom bar to draw water lakes, food, or empty space directly onto the grid to test population isolation and survival.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,11 +100,11 @@ For a comprehensive academic explanation of the mathematical models, algorithms,
 <!-- LESSONS LEARNED -->
 ## Lessons Learned
 
-* **Cellular Automata**: Understanding how simple grid rules and neighborhood states generate structured terrain and resource distribution.
-* **Autonomous Agents**: Implementing steering behaviors and sensory perception so agents move naturally and react to obstacles or targets.
-* **Genetic Algorithms**: Modeling heredity and mutation to observe how populations adapt their survival weights across generations.
-* **Physics and Integration**: Applying Euler integration, forces, mass, and velocity to simulate realistic movement and energy costs.
-* **Object-Oriented Architecture**: Structuring a simulation into modular Java classes for agents, behaviors, physics, and rendering.
+* **Cellular Automata**: Applying discrete grid states and neighborhood rules to simulate emergent natural landscapes and renewable environmental resources.
+* **Autonomous Agent Perception**: Implementing sensory vision cones and steering force vectors so artificial animals detect targets and navigate autonomously.
+* **Evolutionary Adaptation**: Modeling genetic inheritance and behavior weight mutation to demonstrate how natural selection favors efficient survival strategies over time.
+* **Kinematics and Metabolism**: Integrating physical forces, velocity, and mass with metabolic energy consumption to link mechanical movement directly to survival.
+* **Complex Systems Modeling**: Structuring multi-agent interactions and feedback loops to observe emergent population balance between predators and prey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
